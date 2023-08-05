@@ -1,0 +1,30 @@
+1) git init -> to initialize .git in the repository
+
+2) git status -> to see the status of where you are
+
+
+3) A git repository has branches to help keep track of things you are doing with your code. It's common to have a main branch which might be for your production code, and other branches for adding new features or fixing bugs. You can create and go to a new branch with "git checkout -b new_branch". The -b stands for "branch". Use that command to switch to a new branch named main.
+
+4) git log to check the commit history
+
+5) to look at the new changes compared to previous commit use -? -> git diff
+
+6) Commit messages often start with fix: or feat:, among others, to help people understand what your commit was for. 
+
+7) Use git branch -> to see the current branches in your repo.
+
+8)  You can create a branch with git branch branch_name. Branches often start with fix/ or feat/, among others, like commit messages, but they use a forward slash and can't contain spaces.
+
+9) To switch to a branch use: git checkout branch_name
+
+10) git log --oneline -> to check commits in more easy way.
+
+11) git checkout branch_name -> to move to a branch
+
+12) You can use git merge branch_name to bring changes from a branch into the branch you are currently on.
+
+13) You can delete a branch with git branch -d branch_name. -d stands for "delete"
+
+14) If you want to create and switch to a branch at the same time -> git checkout -b branch_name
+
+15)
